@@ -8,6 +8,14 @@ Minimal express.js app to demonstrate the use of fetch with a Pug/Jade template 
     
 * Look in public/javascripts/get_animal.js for an example of using fetch to perform a GET request against the API, then using JavaScript to update DOM elements based on the result.
 
+## To run
+
+* clone or download
+* cd express-demo
+* npm install
+* npm start
+    
+----------
     
 **Important to note:** This is a minimal example, intended only to illustrate the use of fetch within a Pug template, and vanilla JavaScript methods for manipulating the DOM with the results. There are a bunch of other things that are beyond the scope of demonstrating fetch that would be necessary for a production quality application that I've elected not to include as they'd add a lot of extra bulk, without adding any clarity to the demo. Namely:
 
