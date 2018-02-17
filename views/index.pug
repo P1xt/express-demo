@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  script(src='javascripts/get_animal.js')
+
+  .content
+    .controls
+      button(onclick='getAnimal(1)') Get Dog
+      button(onclick='getAnimal(2)') Get Cat
+    #animal.hidden
+      hr
+      p
+        span.label Name: 
+        span.value#name
+      p
+        span.label Species: 
+        span.value#species
+      p
+        span.label Type: 
+        span.value#type
+
